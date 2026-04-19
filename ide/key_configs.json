@@ -1,0 +1,42 @@
+[
+    // Disabling Toggle Sidebar unbound
+    {
+        "key": "ctrl+b",
+        "command": "-workbench.action.toggleSidebarVisibility"
+    },
+    // Go to Definition
+    {
+        "key": "ctrl+b",
+        "command": "editor.action.goToDeclaration",
+        "when": "editorHasDefinitionProvider && editorTextFocus"
+    },
+    // Go to Implementation
+    {
+        "key": "ctrl+b",
+        "command": "editor.action.goToImplementation",
+        "when": "editorHasImplementationProvider && editorTextFocus"
+    },
+    // Go Back: Ctrl + Super + Left
+    {
+        "key": "ctrl+win+left",
+        "command": "workbench.action.navigateBack",
+        "when": "editorTextFocus"
+    },
+    // Go Forward: Ctrl + Super + Right
+    {
+        "key": "ctrl+win+right",
+        "command": "workbench.action.navigateForward",
+        "when": "editorTextFocus"
+    },
+    // Navigation between methods (folds)
+    {
+        "key": "ctrl+shift+down",
+        "command": "editor.gotoNextFold",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "ctrl+shift+up",
+        "command": "editor.gotoPreviousFold",
+        "when": "editorTextFocus"
+    }
+]
