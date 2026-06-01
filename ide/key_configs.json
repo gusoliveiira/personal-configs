@@ -18,13 +18,13 @@
     },
     // Go Back: Ctrl + Super + Left
     {
-        "key": "ctrl+win+left",
+        "key": "ctrl+alt+left", //Windows has ctrl+windows+left to switch to a different desktop worskpace, so switching to alt. For linux, unnecessary;
         "command": "workbench.action.navigateBack",
         "when": "editorTextFocus"
     },
     // Go Forward: Ctrl + Super + Right
     {
-        "key": "ctrl+win+right",
+        "key": "ctrl+alt+right",
         "command": "workbench.action.navigateForward",
         "when": "editorTextFocus"
     },
